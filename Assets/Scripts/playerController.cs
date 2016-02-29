@@ -5,6 +5,7 @@ public class playerController : MonoBehaviour {
 
     public float fwardForce;
     public float weaveForce;
+    public float leanForce;
     public float pivotForce;
     public float speed;
 
@@ -27,25 +28,16 @@ public class playerController : MonoBehaviour {
     {
         //Movement
         /*
-            Weaving and Strafing
+            Weaving
         */
-        if (Input.GetKeyDown(KeyCode.A))
-        {
-            playerRB.velocity = new Vector3(0f, 0f, playerRB.velocity.z);
-        }
-
         if (Input.GetKey(KeyCode.A))
         {
             // Add a FORCE and TILT to the LEFT
             playerRB.AddForce(transform.forward * fwardForce * Time.deltaTime);
             playerRB.AddForce(-transform.right * weaveForce * Time.deltaTime);
 
-            // Map this to controller LEFT TRIGGER
-        }
-
-        if (Input.GetKeyDown(KeyCode.L))
-        {
-            playerRB.velocity = new Vector3(0f, 0f, playerRB.velocity.z);
+            //transform.localEulerAngles += transform.forward * leanForce * Time.deltaTime;
+            //transform.RotateAround(transform.position, transform.forward, leanForce * Time.deltaTime);
         }
 
         if (Input.GetKey(KeyCode.L))
@@ -54,7 +46,8 @@ public class playerController : MonoBehaviour {
             playerRB.AddForce(transform.forward * fwardForce * Time.deltaTime);
             playerRB.AddForce(transform.right * weaveForce * Time.deltaTime);
 
-            // Map this to controller RIGHT TRIGGER
+            //transform.localEulerAngles -= transform.forward * leanForce * Time.deltaTime;
+            //transform.RotateAround(transform.position, transform.forward, -leanForce * Time.deltaTime);
         }
 
         /*
@@ -62,15 +55,30 @@ public class playerController : MonoBehaviour {
         */
         if (Input.GetKey(KeyCode.W))
         {
-            transform.localEulerAngles += new Vector3(0f, -pivotForce * Time.deltaTime, 0f);
+            transform.eulerAngles += new Vector3(0f, -pivotForce * Time.deltaTime, 0f);
+            //transform.RotateAround(transform.position, Vector3.up, -pivotForce * Time.deltaTime);
         }
 
         if (Input.GetKey(KeyCode.I))
         {
-            transform.localEulerAngles += new Vector3(0f, pivotForce * Time.deltaTime, 0f);
+            transform.eulerAngles += new Vector3(0f, pivotForce * Time.deltaTime, 0f);
+            //transform.RotateAround(transform.position, Vector3.up, pivotForce * Time.deltaTime);
         }
 
+        /*
+            Stopping
+        */
+        if (Input.GetKey(KeyCode.P))
+        {
+            playerRB.drag = 2f;
+        }
+        else
+        {
+            playerRB.drag = 0f;
+        }
+
+
         //Camera Positioning
-        mainCam.transform.position = transform.position + new Vector3(0f, camHeit, -camDist);
+        mainCam.transform.localPosition = new Vector3(0f, camHeit, -camDist);
     }
 }
