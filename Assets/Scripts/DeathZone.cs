@@ -8,7 +8,6 @@ public class DeathZone : MonoBehaviour {
         //trigger will read when player passes the finish line
 
         //Destroy(activator.gameObject);
-
     }
 
     void OnTriggerStay (Collider activator)

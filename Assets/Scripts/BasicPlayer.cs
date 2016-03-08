@@ -5,14 +5,16 @@ public class BasicPlayer : MonoBehaviour {
 
     public int healthPoints = 100;
 
-	// Use this for initialization
-	void Start ()
+    // Use this for initialization
+    /*
+    void Start ()
     {
         if (TitleScreen.useNightmareMode == true)
         {
             healthPoints = 1;
         }
 	}
+    */
 	
 	// Update is called once per frame
 	void Update ()

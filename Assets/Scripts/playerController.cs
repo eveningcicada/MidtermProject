@@ -18,8 +18,9 @@ public class playerController : MonoBehaviour {
     // Use this for initialization
     void Start ()
     {
-        mainCam = GameObject.Find("Main Camera");
+        transform.position = new Vector3(-45f, 0.6f, 1f);
 
+        mainCam = GameObject.Find("Main Camera");
         playerRB = GetComponent<Rigidbody>();
     }
 

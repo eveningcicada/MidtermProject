@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 1428afce1c964a046bf67ba4308468bd
-timeCreated: 1457237114
+timeCreated: 1457329212
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
@@ -16,6 +16,66 @@ ModelImporter:
     100016: wheel2 1
     100018: wheelsL
     100020: wheelsR
+    100022: Camera
+    100024: Camera_Interest
+    100026: Camera_Root
+    100028: Hm01_aero
+    100030: Hm01_aero_hm01_bone
+    100032: Hm01_aero_hm01_bone__j000
+    100034: Hm01_aero_hm01_bone__j001
+    100036: Hm01_aero_hm01_bone__j002
+    100038: Hm01_aero_hm01_bone__j003
+    100040: Hm01_aero_hm01_bone__j004
+    100042: Hm01_aero_hm01_bone__j005
+    100044: Hm01_aero_hm01_bone__j006
+    100046: Hm01_aero_hm01_bone__j007
+    100048: Hm01_aero_hm01_bone__j008
+    100050: Hm01_aero_hm01_bone__j009
+    100052: Hm01_aero_hm01_bone__j010
+    100054: Hm01_aero_hm01_bone__j011
+    100056: Hm01_aero_hm01_bone__j012
+    100058: Hm01_aero_hm01_bone__j013
+    100060: Hm01_aero_hm01_bone__j014
+    100062: Hm01_aero_hm01_bone__j015
+    100064: Hm01_aero_hm01_bone__j016
+    100066: Hm01_aero_hm01_bone__j017
+    100068: Hm01_aero_hm01_bone__j018
+    100070: Hm01_aero_hm01_bone__j019
+    100072: Hm01_aero_hm01_bone_null
+    100074: Hm01_aero_hm01_skin
+    100076: Hm01_aero_hm01_skin__p001_body
+    100078: Hm01_aero_hm01_skin__p002_leg
+    100080: Hm01_aero_hm01_skin__p003_pants
+    100082: Hm01_aero_hm01_skin__p004_pants
+    100084: Hm01_aero_hm01_skin__p006_scarf
+    100086: Hm01_aero_hm01_skin__p007_armparts
+    100088: Hm01_aero_hm01_skin__p008_zipper
+    100090: Hm01_aero_hm01_skin__p009_hair
+    100092: Hm01_aero_hm01_skin__p010_scarf
+    100094: light
+    100096: Scene_Root
+    100098: bone_GRP
+    100100: head_JNT
+    100102: hip_JNT
+    100104: L_foot_JNT
+    100106: L_foreArm_JNT
+    100108: L_hand_JNT
+    100110: L_shin_JNT
+    100112: L_shoulder_JNT
+    100114: L_thigh_JNT
+    100116: L_upprArm_JNT
+    100118: neck_JNT
+    100120: R_foot_JNT
+    100122: R_foreArm_JNT
+    100124: R_hand_JNT
+    100126: R_shin_JNT
+    100128: R_shoulder_JNT
+    100130: R_thigh_JNT
+    100132: R_upprArm_JNT
+    100134: root_JNT
+    100136: spine_JNT
+    100138: torso_JNT
+    100140: geo_GRP
     400000: arms
     400002: boots
     400004: pants
@@ -27,6 +87,66 @@ ModelImporter:
     400016: wheel2 1
     400018: wheelsL
     400020: wheelsR
+    400022: Camera
+    400024: Camera_Interest
+    400026: Camera_Root
+    400028: Hm01_aero
+    400030: Hm01_aero_hm01_bone
+    400032: Hm01_aero_hm01_bone__j000
+    400034: Hm01_aero_hm01_bone__j001
+    400036: Hm01_aero_hm01_bone__j002
+    400038: Hm01_aero_hm01_bone__j003
+    400040: Hm01_aero_hm01_bone__j004
+    400042: Hm01_aero_hm01_bone__j005
+    400044: Hm01_aero_hm01_bone__j006
+    400046: Hm01_aero_hm01_bone__j007
+    400048: Hm01_aero_hm01_bone__j008
+    400050: Hm01_aero_hm01_bone__j009
+    400052: Hm01_aero_hm01_bone__j010
+    400054: Hm01_aero_hm01_bone__j011
+    400056: Hm01_aero_hm01_bone__j012
+    400058: Hm01_aero_hm01_bone__j013
+    400060: Hm01_aero_hm01_bone__j014
+    400062: Hm01_aero_hm01_bone__j015
+    400064: Hm01_aero_hm01_bone__j016
+    400066: Hm01_aero_hm01_bone__j017
+    400068: Hm01_aero_hm01_bone__j018
+    400070: Hm01_aero_hm01_bone__j019
+    400072: Hm01_aero_hm01_bone_null
+    400074: Hm01_aero_hm01_skin
+    400076: Hm01_aero_hm01_skin__p001_body
+    400078: Hm01_aero_hm01_skin__p002_leg
+    400080: Hm01_aero_hm01_skin__p003_pants
+    400082: Hm01_aero_hm01_skin__p004_pants
+    400084: Hm01_aero_hm01_skin__p006_scarf
+    400086: Hm01_aero_hm01_skin__p007_armparts
+    400088: Hm01_aero_hm01_skin__p008_zipper
+    400090: Hm01_aero_hm01_skin__p009_hair
+    400092: Hm01_aero_hm01_skin__p010_scarf
+    400094: light
+    400096: Scene_Root
+    400098: bone_GRP
+    400100: head_JNT
+    400102: hip_JNT
+    400104: L_foot_JNT
+    400106: L_foreArm_JNT
+    400108: L_hand_JNT
+    400110: L_shin_JNT
+    400112: L_shoulder_JNT
+    400114: L_thigh_JNT
+    400116: L_upprArm_JNT
+    400118: neck_JNT
+    400120: R_foot_JNT
+    400122: R_foreArm_JNT
+    400124: R_hand_JNT
+    400126: R_shin_JNT
+    400128: R_shoulder_JNT
+    400130: R_thigh_JNT
+    400132: R_upprArm_JNT
+    400134: root_JNT
+    400136: spine_JNT
+    400138: torso_JNT
+    400140: geo_GRP
     2300000: arms
     2300002: boots
     2300004: pants
@@ -35,6 +155,15 @@ ModelImporter:
     2300010: wheel1 1
     2300012: wheel2
     2300014: wheel2 1
+    2300016: Hm01_aero_hm01_skin__p001_body
+    2300018: Hm01_aero_hm01_skin__p002_leg
+    2300020: Hm01_aero_hm01_skin__p003_pants
+    2300022: Hm01_aero_hm01_skin__p004_pants
+    2300024: Hm01_aero_hm01_skin__p006_scarf
+    2300026: Hm01_aero_hm01_skin__p007_armparts
+    2300028: Hm01_aero_hm01_skin__p008_zipper
+    2300030: Hm01_aero_hm01_skin__p009_hair
+    2300032: Hm01_aero_hm01_skin__p010_scarf
     3300000: arms
     3300002: boots
     3300004: pants
@@ -43,6 +172,15 @@ ModelImporter:
     3300010: wheel1 1
     3300012: wheel2
     3300014: wheel2 1
+    3300016: Hm01_aero_hm01_skin__p001_body
+    3300018: Hm01_aero_hm01_skin__p002_leg
+    3300020: Hm01_aero_hm01_skin__p003_pants
+    3300022: Hm01_aero_hm01_skin__p004_pants
+    3300024: Hm01_aero_hm01_skin__p006_scarf
+    3300026: Hm01_aero_hm01_skin__p007_armparts
+    3300028: Hm01_aero_hm01_skin__p008_zipper
+    3300030: Hm01_aero_hm01_skin__p009_hair
+    3300032: Hm01_aero_hm01_skin__p010_scarf
     4300000: torso
     4300002: arms
     4300004: pants
@@ -51,7 +189,24 @@ ModelImporter:
     4300010: wheel2
     4300012: wheel1
     4300014: wheel2
+    4300016: Hm01_aero_hm01_skin__p001_body
+    4300018: Hm01_aero_hm01_skin__p009_hair
+    4300020: Hm01_aero_hm01_skin__p010_scarf
+    4300022: Hm01_aero_hm01_skin__p008_zipper
+    4300024: Hm01_aero_hm01_skin__p007_armparts
+    4300026: Hm01_aero_hm01_skin__p006_scarf
+    4300028: Hm01_aero_hm01_skin__p004_pants
+    4300030: Hm01_aero_hm01_skin__p003_pants
+    4300032: Hm01_aero_hm01_skin__p002_leg
     9500000: //RootNode
+    13700000: arms
+    13700002: boots
+    13700004: pants
+    13700006: torso
+    13700008: wheel1
+    13700010: wheel1 1
+    13700012: wheel2
+    13700014: wheel2 1
   materials:
     importMaterials: 1
     materialName: 0
@@ -66,7 +221,7 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -98,8 +253,325 @@ ModelImporter:
   importAnimation: 0
   copyAvatar: 0
   humanDescription:
-    human: []
-    skeleton: []
+    human:
+    - boneName: root_JNT
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_thigh_JNT
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_thigh_JNT
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_shin_JNT
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_shin_JNT
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_foot_JNT
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_foot_JNT
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: spine_JNT
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: torso_JNT
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: neck_JNT
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: head_JNT
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_shoulder_JNT
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_shoulder_JNT
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_upprArm_JNT
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_upprArm_JNT
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_foreArm_JNT
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_foreArm_JNT
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_hand_JNT
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_hand_JNT
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: SkaterMii(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: bone_GRP
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: root_JNT
+      position: {x: 0, y: 1.0516803, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: spine_JNT
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: torso_JNT
+      position: {x: -0.1479337, y: 2.7755576e-17, z: 0}
+      rotation: {x: 0.7061784, y: -0.036222193, z: 0.036222193, w: 0.7061784}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: neck_JNT
+      position: {x: -0.2263042, y: 7.596584e-18, z: -1.1343182e-16}
+      rotation: {x: 0.9887791, y: -0.14938487, z: -9.147185e-18, w: 6.054526e-17}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: head_JNT
+      position: {x: -0.11806699, y: -1.8699955e-17, z: 9.181329e-17}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_shoulder_JNT
+      position: {x: -0.16891101, y: 0.017373705, z: 0.0321595}
+      rotation: {x: -0.5263989, y: 0.4721273, z: 0.41578975, w: 0.5719431}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_upprArm_JNT
+      position: {x: -0.09693768, y: -5.749242e-17, z: 1.9747847e-18}
+      rotation: {x: 0, y: 0, z: 0.10535081, w: 0.99443513}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_foreArm_JNT
+      position: {x: -0.201, y: -1.8270875e-16, z: -1.3372371e-16}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_hand_JNT
+      position: {x: -0.28633267, y: 3.688867e-16, z: 1.9609364e-17}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_shoulder_JNT
+      position: {x: -0.1689153, y: 0.017374145, z: -0.0321595}
+      rotation: {x: -0.4721273, y: -0.5263989, z: 0.5719431, w: -0.41578975}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_upprArm_JNT
+      position: {x: 0.09693702, y: 0.0000011524099, z: 1.7972403e-17}
+      rotation: {x: 0, y: 0, z: 0.10535081, w: 0.99443513}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_foreArm_JNT
+      position: {x: 0.201, y: 0, z: 1.5830489e-16}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_hand_JNT
+      position: {x: 0.286, y: 2.220446e-16, z: 6.0802725e-17}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: hip_JNT
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_thigh_JNT
+      position: {x: 0.0964785, y: -0.12863982, z: -3.081488e-33}
+      rotation: {x: 0.7071068, y: -0.7071068, z: -4.3297806e-17, w: 4.3297806e-17}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_shin_JNT
+      position: {x: 0.385912, y: 1.3877788e-17, z: 2.3567635e-22}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_foot_JNT
+      position: {x: 0.430938, y: 1.3877788e-16, z: -6.254666e-23}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_thigh_JNT
+      position: {x: -0.09647851, y: -0.128638, z: -2.311116e-33}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_shin_JNT
+      position: {x: -0.38591403, y: -6.333044e-18, z: -1.7669351e-32}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_foot_JNT
+      position: {x: -0.43093735, y: -2.921278e-17, z: -1.9512671e-32}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: geo_GRP
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: arms
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: boots
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: pants
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: torso
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: wheelsL
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: wheel1
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: wheel2
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: wheelsR
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: wheel1 1
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: wheel2 1
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -110,7 +582,7 @@ ModelImporter:
     rootMotionBoneName: 
     hasTranslationDoF: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 3
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
