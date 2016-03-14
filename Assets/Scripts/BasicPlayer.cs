@@ -5,20 +5,28 @@ public class BasicPlayer : MonoBehaviour {
 
     public int healthPoints = 100;
 
+    AudioSource myAudio;
+
+    public AudioClip explosionSound;
+
     // Use this for initialization
-    /*
+    
     void Start ()
     {
-        if (TitleScreen.useNightmareMode == true)
+        myAudio = GetComponent<AudioSource>();
+       /*
+       if (TitleScreen.useNightmareMode == true)
         {
             healthPoints = 1;
         }
-	}
-    */
+        */
+    }
+    
 	
 	// Update is called once per frame
 	void Update ()
     {
+        /*
         float h = Input.GetAxis("Horizontal");
         float v = Input.GetAxis("Vertical");
 
@@ -30,6 +38,21 @@ public class BasicPlayer : MonoBehaviour {
         if( healthPoints <= 0)
         {
             Destroy(gameObject);
+        }
+        */
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            myAudio.PlayOneShot(myAudio.clip, 0.5f);
+            myAudio.PlayOneShot(explosionSound);
+        }
+        if (Input.GetKey(KeyCode.Space))
+        {
+            transform.eulerAngles += new Vector3(0f ,50f * Time.deltaTime, 0f);
+        }
+        if (Input.GetKeyDown(KeyCode.B))
+        {
+            AudioSource.PlayClipAtPoint(explosionSound, Vector3.zero, 1f);
         }
 	}
 }

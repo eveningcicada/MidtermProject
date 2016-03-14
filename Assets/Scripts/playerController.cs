@@ -12,6 +12,7 @@ public class playerController : MonoBehaviour {
     public float camHeit;
     public float camDist;
 
+    private bool onGrass;
     GameObject mainCam;
     Rigidbody playerRB;
 
@@ -19,9 +20,11 @@ public class playerController : MonoBehaviour {
     void Start ()
     {
         transform.position = new Vector3(-45f, 0.6f, 1f);
+        playerRB = GetComponent<Rigidbody>();
 
         mainCam = GameObject.Find("Main Camera");
-        playerRB = GetComponent<Rigidbody>();
+        //Camera Positioning
+        mainCam.transform.localPosition = new Vector3(0f, camHeit, -camDist);
     }
 
     // Update is called once per frame
@@ -85,8 +88,28 @@ public class playerController : MonoBehaviour {
         {
             playerRB.constraints = RigidbodyConstraints.FreezeRotation;
         }
+        /*
+        if (onGrass)
+        {
+            playerRB.constraints = RigidbodyConstraints.None;
+        }
+        */
+    }
 
-        //Camera Positioning
-        mainCam.transform.localPosition = new Vector3(0f, camHeit, -camDist);
+    void OnCollisionEnter(Collision other)
+    {
+        if(other.collider.tag == "Grass")
+        {
+            onGrass = true;
+        }
+        else
+        {
+            onGrass = false;
+        }
+    }
+
+    void OnCollisionExit()
+    {
+
     }
 }

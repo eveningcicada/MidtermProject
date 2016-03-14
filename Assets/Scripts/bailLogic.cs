@@ -8,6 +8,9 @@ public class bailLogic : MonoBehaviour {
         if (other.tag == "Ground"|| other.tag == "Grass")
         {
             Camera.main.GetComponent<gameLogic>().bail = true;
+
+            // Camera shake
+            Camera.main.GetComponent<ScreenShake>().shake = 0.5f;
         }
     }
 }
